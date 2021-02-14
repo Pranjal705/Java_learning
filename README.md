@@ -1,2 +1,2 @@
 # Java_learning
-These repository consists of java practice files
+Made this repository while i am learning Java
