@@ -1,0 +1,50 @@
+package classAssignments;
+import java.util.*;
+import java.lang.Math;
+public class QuadraticEquations {
+
+	public static void main(String[] args) {
+		// Write a java program to find the roots of the quadratic equation
+		
+		Scanner sc = new Scanner(System.in);
+		int a = sc.nextInt();
+		if(a != 0)
+		{
+			double b = sc.nextInt();
+			double c = sc.nextInt();
+			
+			double det = (b*b) - (4*a*c);
+			double result1 = (-b + Math.sqrt(det)) / (2*a);
+			double result2 = (-b - Math.sqrt(det)) / (2*a);
+			double rReal = 0;
+			double rImag = 0;
+			
+			if (det>0)
+			{
+				System.out.println("We will get two real solutions!");
+				System.out.println(result1);
+				System.out.println(result2);
+				
+			}
+			else if(det == 0)
+			{
+				System.out.println("We get one real solution!");
+				System.out.println(result1);
+			}
+			else
+			{
+				System.out.println("We get two imaginary solutions!");
+				rReal = -b/(2*a);
+				rImag = Math.sqrt(-det)/(2*a); 
+				System.out.println(rReal + " + " + rImag + "i");
+				System.out.println(rReal + " - " + rImag + "i");
+			}
+		}
+		else
+		{
+			System.out.println("The value of a cannot be zero!");
+		}
+		sc.close();
+	}
+
+}

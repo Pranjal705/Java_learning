@@ -1,0 +1,18 @@
+package oops.abstraction;
+
+public class RepairShop {
+
+	public static void repair(Car car)
+	{
+		System.out.println("Your car is repaired");
+	}
+	
+	public static void main(String[] args) {
+		WagonR wagonR = new WagonR();
+		Audi audi = new Audi();
+		
+		repair(wagonR);
+		repair(audi);
+	}
+
+}
