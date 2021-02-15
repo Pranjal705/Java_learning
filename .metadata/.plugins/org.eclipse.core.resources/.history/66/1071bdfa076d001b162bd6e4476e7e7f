@@ -1,0 +1,24 @@
+package oops.polymorphism;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		// Run time polymorphism
+		
+		Dog d = new Dog();
+		
+		Pet p = d;
+		Animal a = d;
+		
+		d.walk();
+		d.introudce();
+		
+		p.introduce();
+		p.walk();
+		
+		a.introduce();
+		a.walk();
+
+	}
+
+}

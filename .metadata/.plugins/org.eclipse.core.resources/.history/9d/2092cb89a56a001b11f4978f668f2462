@@ -1,0 +1,13 @@
+package oops.staticKeyword;
+import oops.staticKeyword.*;
+public class Main {
+
+	public static void main(String[] args) {
+		Person p1 = new Person();
+		
+		System.out.println(Person.breed);
+		System.out.println(p1.breed);
+		OuterClass.StaticNestedClass = new OuterClass.StaticNestedClass();
+	}
+
+}

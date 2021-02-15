@@ -1,0 +1,29 @@
+package oops.staticKeyword;
+
+class OuterClass {
+	private static String str = "FUckoff";
+	
+	
+	 // Only static and
+	// of Outer class are accessible in 
+    // this Inner class 
+	static class StaticNestedClass
+	{
+		public void Greet()
+		{
+			System.out.println(str);
+		}
+	}
+	
+	
+	 // Both static and non-static members 
+    // of Outer class are accessible in 
+    // this Inner class 
+	class InnerClass
+	{
+		public void Display()
+		{
+			System.out.println(str);
+		}
+	}
+}

@@ -1,0 +1,23 @@
+package oops.inheritance;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Person Random = new Person();
+		Random.walk();
+		Teacher Adarsh = new Teacher();
+		Adarsh.name = "Adarshbhusan Singh";
+		Adarsh.teach();
+		Adarsh.eat();
+		Adarsh.walk();
+		
+		Singer Pranjal = new Singer();
+		Pranjal.name = "Pranjal Gupta";
+		Pranjal.eat();
+		Pranjal.sing();
+		Pranjal.walk();
+
+	}
+
+}

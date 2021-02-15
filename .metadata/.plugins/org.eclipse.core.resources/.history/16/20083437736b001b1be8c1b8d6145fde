@@ -1,0 +1,12 @@
+package oops.inheritancePractice.question1.question2;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Employee e1 = new Employee();
+		e1.Name = "AdarshBhusan Singh";
+		e1.Age = 20;
+		e1.PhoneNumber = 9846529264;
+	}
+
+}

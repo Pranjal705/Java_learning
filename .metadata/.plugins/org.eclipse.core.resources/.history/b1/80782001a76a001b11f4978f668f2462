@@ -1,0 +1,22 @@
+package oops.staticKeyword;
+import oops.staticKeyword.OuterClass.StaticNestedClass;
+import oops.staticKeyword.OuterClass.InnerClass;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Person p1 = new Person();
+		
+		System.out.println(Person.breed);
+		System.out.println(p1.breed);
+		
+		StaticNestedClass NestedClassObj = new StaticNestedClass();
+		NestedClassObj.Greet();
+		
+		OuterClass outerclassObj = new OuterClass();
+		InnerClass innerClassobj = outerclassObj.new InnerClass();
+		
+		innerClassobj.Display();
+	}
+
+}

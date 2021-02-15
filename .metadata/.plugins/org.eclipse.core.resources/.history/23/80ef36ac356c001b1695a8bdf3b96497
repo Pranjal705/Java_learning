@@ -1,0 +1,8 @@
+package algorithms.twoPointersAlgorithm;
+
+public class TwoSum {
+	 public void main(String[] args)
+	 {
+		 
+	 }
+}

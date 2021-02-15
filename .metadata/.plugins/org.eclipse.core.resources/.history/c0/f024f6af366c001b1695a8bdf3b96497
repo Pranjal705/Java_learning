@@ -1,0 +1,36 @@
+package algorithms.twoPointersAlgorithm;
+
+public class TwoSum {
+	 public static void main(String[] args)
+	 {
+		 int[] array = {0, -1, 2, -3, 1};
+		 int n = array.length;
+		 int i = 0;
+		 int j = n-1;
+		 int x = 0;
+		 int result = 0;
+		 while(i<j)
+		 {
+			 if(array[i]+array[j]< x)
+			 {
+				 i++;
+			 }
+			 else if(array[i]+array[j]> x)
+			 {
+				 j--;
+			 }
+			 else if(array[i]+array[j] == x)
+			 {
+				 result = 1;
+			 }
+		 }
+		 if(result == 1)
+		 {
+			 System.out.println("True");
+		 }
+		 else
+		 {
+			 System.out.println("False");
+		 }
+	 }
+}

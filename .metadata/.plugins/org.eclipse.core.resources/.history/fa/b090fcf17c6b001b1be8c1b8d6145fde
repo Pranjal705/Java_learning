@@ -1,0 +1,8 @@
+package oops.inheritancePractice.question1.question4;
+
+public class Rectangle {
+	double length;
+	double breadth;
+	
+	
+}

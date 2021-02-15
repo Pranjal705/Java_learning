@@ -1,0 +1,20 @@
+package classAssignments;
+import java.util.*;
+public class QuadraticEquations {
+
+	public static void main(String[] args) {
+		// Write a java program to find the roots ofo the quadratic equation
+		Scanner sc = new Scanner(System.in);
+		int a = sc.nextInt();
+		if(a != 0)
+		{
+			int b = sc.nextInt();
+			int c = sc.nextInt();
+		}
+		else
+		{
+			System.out.println("The value of a cannot be zero!");
+		}
+	}
+
+}

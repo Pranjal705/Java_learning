@@ -1,0 +1,6 @@
+package oops.inheritancePractice.question1.question3;
+
+public class Square extends Rectangle {
+	super(l,l);
+}
+

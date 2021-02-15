@@ -1,0 +1,9 @@
+package oops.staticKeyword;
+
+public class Person {
+	int age;
+	String name;
+	
+	static String breed = "Homo Sapiens"; // Static is used. that means we can fetch this member using class name also.
+	
+}

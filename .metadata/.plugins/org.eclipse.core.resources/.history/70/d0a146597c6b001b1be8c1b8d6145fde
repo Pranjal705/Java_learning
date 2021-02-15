@@ -1,0 +1,25 @@
+package oops.inheritancePractice.question1.question3_4;
+import java.util.*;
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		Rectangle r1 = new Rectangle(10,15);
+		r1.Area();
+		r1.Perimeter();
+		
+		Square s1 = new Square(10);
+		s1.Area();
+		s1.Perimeter();
+		
+		Square[] TenSquares = new Square[10];
+		
+		for(Square obj: TenSquares)
+		{
+			obj.length = sc.nextDouble();
+			obj.breadth = obj.length;
+			obj.Area();
+		}
+	}
+
+}

@@ -1,0 +1,20 @@
+package strings;
+import java.util.Scanner;
+public class StringReversal {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		String s = sc.nextLine();
+		
+//		s = s.trim();
+        String[] splitted = s.split(" ");
+        String[] reversed = new String[splitted.length];
+        int j = 0;
+        for(int i= splitted.length - 1; i>=0; i--)
+        {
+        	splitted[i] = reversed[j];
+        	j++;
+        }
+	}
+
+}

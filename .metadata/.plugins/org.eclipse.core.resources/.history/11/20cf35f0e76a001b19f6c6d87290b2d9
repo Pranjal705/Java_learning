@@ -1,0 +1,32 @@
+package oops.inheritance;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Person Random = new Person();
+		Random.name = "Rakshit";
+		Random.walk();
+		System.out.println(Random.heart);
+		
+		System.out.println();
+		
+		Teacher Adarsh = new Teacher();
+		Adarsh.name = "Adarshbhusan Singh";
+		System.out.println(Adarsh.heart);
+		Adarsh.teach();
+		Adarsh.eat();
+		Adarsh.walk();
+		
+		System.out.println();
+		
+		Singer Pranjal = new Singer();
+		Pranjal.name = "Pranjal Gupta";
+		System.out.println(Pranjal.heart);
+		Pranjal.eat();
+		Pranjal.sing();
+		Pranjal.walk();
+
+	}
+
+}

@@ -1,0 +1,8 @@
+package oops.inheritancePractice.question1;
+
+public class ChildClass {
+	public void description()
+	{
+		System.out.println("This is child class!");
+	}
+}

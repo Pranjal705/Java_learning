@@ -1,0 +1,21 @@
+package oops.staticKeyword;
+
+public class OuterClass {
+	private static String str = "FUckoff";
+	
+	static class StaticNesstedClass
+	{
+		public void Greet()
+		{
+			System.out.println(str);
+		}
+	}
+	
+	class InnerClass
+	{
+		public void Display()
+		{
+			System.out.println(str);
+		}
+	}
+}

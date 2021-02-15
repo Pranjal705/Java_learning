@@ -1,0 +1,11 @@
+package classAssignments;
+
+public class QuadraticEquations {
+
+	public static void main(String[] args) {
+		// Write a java program to find the roots ofo the quadratic equation
+		
+
+	}
+
+}

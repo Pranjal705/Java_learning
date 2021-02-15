@@ -1,0 +1,5 @@
+package oops.staticKeyword;
+
+public class OuterClass {
+
+}

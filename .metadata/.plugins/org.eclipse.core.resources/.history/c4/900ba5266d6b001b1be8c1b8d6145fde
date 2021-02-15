@@ -1,0 +1,26 @@
+package oops.singeltonClass;
+// This singleton class is a class which is used in a case where we only want our class to instantiate once.
+// That is we only want one object and that object will do the work
+// This is used in caching, logging, etc.
+public class AppConfig {
+	private AppConfig()
+	{
+		
+	}
+	
+	public static AppConfig obj = null;
+	
+	public static AppConfig getInstance()
+	{
+		if(obj == null)
+		{
+			obj = new AppConfig();
+		}
+		return obj;
+	}
+	
+	public void introduce()
+	{
+		System.out.println("This is AppConfigurer class object!");
+	}
+}

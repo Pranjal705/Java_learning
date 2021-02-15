@@ -1,0 +1,18 @@
+package oops.polymorphism;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		// Run time polymorphism
+		
+		Dog d = new Dog();
+		
+		Pet p = d;
+		Animal a = d;
+		
+		d.walk(); // This will call the walk() method of dog class
+		p.walk(); // Here, if we guess, we will think that that walk() method of pet will be invoked but N0!, again, walk() method of dog will be evoked because we have give the reference of dog object to the p.
+
+	}
+
+}

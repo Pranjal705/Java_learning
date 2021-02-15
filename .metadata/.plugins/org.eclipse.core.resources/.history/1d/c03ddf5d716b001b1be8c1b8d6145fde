@@ -1,0 +1,9 @@
+package oops.inheritancePractice.question1;
+
+public class ParentClass {
+	
+	private void DescriptionParent()
+	{
+		System.out.println("This is Parent class!");		
+	}
+}

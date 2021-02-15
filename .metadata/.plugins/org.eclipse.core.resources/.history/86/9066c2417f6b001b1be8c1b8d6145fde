@@ -1,0 +1,22 @@
+package oops.inheritancePractice.question1.question4;
+
+public class Rectangle {
+	double length;
+	double breadth;
+	
+	public void setDimensions(double l, double b)
+	{
+		length = l;
+		breadth = b;
+	}
+	
+	public void Perimeter()
+	{
+		System.out.println(2 *(length + breadth));
+	}
+	
+	public void Area()
+	{
+		System.out.println(length * breadth);
+	}
+}
